@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import emrLogosImage from "figma:asset/454be2162f8ee7af347e3b240f2726f6b8b1e014.png";
+import emrLogosImage from "../assets/454be2162f8ee7af347e3b240f2726f6b8b1e014.png";
 
 export function InfiniteCarousel() {
   return (

@@ -29,17 +29,17 @@ import {
   Instagram,
   Youtube
 } from 'lucide-react';
-import heroImage from "figma:asset/c4c6e231a9ed53a95071f2f69979b3dec58bad34.png";
-import hipaaImage from "figma:asset/499de72b0437491d6e8f5d58e8b00412ec8e94c5.png";
-import operatingRoomImage from "figma:asset/ca307cdb40545c44aa6bab91cc5a2a5884556903.png";
+import heroImage from "../assets/c4c6e231a9ed53a95071f2f69979b3dec58bad34.png";
+import hipaaImage from "../assets/499de72b0437491d6e8f5d58e8b00412ec8e94c5.png";
+import operatingRoomImage from "../assets/ca307cdb40545c44aa6bab91cc5a2a5884556903.png";
 import * as Accordion from '@radix-ui/react-accordion';
 import { AnimatedCard } from './components/AnimatedCard';
 import { HoverCard3D } from './components/HoverCard3D';
 import { CounterUp } from './components/CounterUp';
 import { InfiniteCarousel } from './components/InfiniteCarousel';
 import { ParallaxSection } from './components/ParallaxSection';
-import logoImage from 'figma:asset/fa4d3d0a72af23e2a0a697e45d57af1eed1d5a75.png';
-import footerLogoImage from 'figma:asset/4bcbd15a36727ad356e2b5b620469456bae083d7.png';
+import logoImage from '../assets/fa4d3d0a72af23e2a0a697e45d57af1eed1d5a75.png';
+import footerLogoImage from '../assets/4bcbd15a36727ad356e2b5b620469456bae083d7.png';
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -1313,48 +1313,48 @@ export default function App() {
                   }
                 }}
               >
-                {/* First Set of Logos */}
+                {/* First Set of Logos - Assets not available yet, commented out */}
                 <div className="flex gap-16 items-center flex-shrink-0">
-                  <div className="w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
-                    <img src="figma:asset/f3f2517b0f88368cc8a902cb78b40e224f46a046.png" alt="WellSky" className="max-w-full max-h-full object-contain" />
+                  {/* <div className="w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
+                    <img src="" alt="WellSky" className="max-w-full max-h-full object-contain" />
                   </div>
                   <div className="w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
-                    <img src="figma:asset/e34ae61972c0b4b490950320056782785550317d.png" alt="MatrixCare" className="max-w-full max-h-full object-contain" />
+                    <img src="" alt="MatrixCare" className="max-w-full max-h-full object-contain" />
                   </div>
                   <div className="w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
-                    <img src="figma:asset/256eac9949fac8faa51410e2a8ad4dc3491e9d5b.png" alt="Axxess" className="max-w-full max-h-full object-contain" />
+                    <img src="" alt="Axxess" className="max-w-full max-h-full object-contain" />
                   </div>
                   <div className="w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
-                    <img src="figma:asset/f9f4f5789987d5a685340d5b6a873390406c5165.png" alt="Healthcare Synergy" className="max-w-full max-h-full object-contain" />
+                    <img src="" alt="Healthcare Synergy" className="max-w-full max-h-full object-contain" />
                   </div>
                   <div className="w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
-                    <img src="figma:asset/a6f5ba687011e31a6ee1a4388bf7a6052ea3b544.png" alt="DataSoftLogic" className="max-w-full max-h-full object-contain" />
+                    <img src="" alt="DataSoftLogic" className="max-w-full max-h-full object-contain" />
                   </div>
                   <div className="w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
-                    <img src="figma:asset/a5e6e365e8c94455255c20c1d4afe736426f27fd.png" alt="Epic" className="max-w-full max-h-full object-contain" />
-                  </div>
+                    <img src="" alt="Epic" className="max-w-full max-h-full object-contain" />
+                  </div> */}
                 </div>
 
-                {/* Second Set (Duplicate for Infinite Effect) */}
+                {/* Second Set (Duplicate for Infinite Effect) - Assets not available yet, commented out */}
                 <div className="flex gap-16 items-center flex-shrink-0">
-                  <div className="w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
-                    <img src="figma:asset/f3f2517b0f88368cc8a902cb78b40e224f46a046.png" alt="WellSky" className="max-w-full max-h-full object-contain" />
+                  {/* <div className="w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
+                    <img src="" alt="WellSky" className="max-w-full max-h-full object-contain" />
                   </div>
                   <div className="w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
-                    <img src="figma:asset/e34ae61972c0b4b490950320056782785550317d.png" alt="MatrixCare" className="max-w-full max-h-full object-contain" />
+                    <img src="" alt="MatrixCare" className="max-w-full max-h-full object-contain" />
                   </div>
                   <div className="w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
-                    <img src="figma:asset/256eac9949fac8faa51410e2a8ad4dc3491e9d5b.png" alt="Axxess" className="max-w-full max-h-full object-contain" />
+                    <img src="" alt="Axxess" className="max-w-full max-h-full object-contain" />
                   </div>
                   <div className="w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
-                    <img src="figma:asset/f9f4f5789987d5a685340d5b6a873390406c5165.png" alt="Healthcare Synergy" className="max-w-full max-h-full object-contain" />
+                    <img src="" alt="Healthcare Synergy" className="max-w-full max-h-full object-contain" />
                   </div>
                   <div className="w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
-                    <img src="figma:asset/a6f5ba687011e31a6ee1a4388bf7a6052ea3b544.png" alt="DataSoftLogic" className="max-w-full max-h-full object-contain" />
+                    <img src="" alt="DataSoftLogic" className="max-w-full max-h-full object-contain" />
                   </div>
                   <div className="w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
-                    <img src="figma:asset/a5e6e365e8c94455255c20c1d4afe736426f27fd.png" alt="Epic" className="max-w-full max-h-full object-contain" />
-                  </div>
+                    <img src="" alt="Epic" className="max-w-full max-h-full object-contain" />
+                  </div> */}
                 </div>
               </motion.div>
             </div>
